@@ -12,6 +12,10 @@ public class Oblig_1B
 		System.out.println();
 		
 		int [][]tab1 = skaler(tall,tab);
+		skrivUtv2(tab1);
+		System.out.println("test");
+		System.out.println();
+
 		skrivUtv(tab1);
 		System.out.println();
 		System.out.println(erLik(tab,tab1));
@@ -26,6 +30,18 @@ public class Oblig_1B
 		
 		
 	}
+	
+	public static void skrivUtv2(int[][] matrise)
+	{
+		for( int []i: matrise) 
+		{
+			for( int j: i) 
+			{
+				System.out.print(j+ " ");
+			}
+			System.out.println();
+		}
+	} 
 	
 	public static void skrivUtv(int[][] matrise) 
 	{
